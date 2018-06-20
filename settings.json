@@ -1,0 +1,62 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    "editor.rulers": [
+        80
+    ],
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "vscode-great-icons",
+    "files.autoSave": "afterDelay",
+    // vue设置
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html",
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "eslint.enable": true, //Enable eslint
+    "eslint.options": {
+        "extensions": [ //List of file extensions to activate eslint
+            ".html",
+            ".js",
+            ".vue",
+            ".jsx"
+        ]
+    },
+    "eslint.validate": [{ //list of extensions to validate
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true //Autofix any fixable errors when linting
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        }
+    ],
+    // Run the linter on save (onSave) or on type (onType)
+    "eslint.run": "onSave",
+    "eslint.autoFixOnSave": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.fontLigatures": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false, //Autofix any fixable errors when linting
+}
